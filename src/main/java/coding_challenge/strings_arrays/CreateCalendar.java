@@ -2,11 +2,9 @@ package coding_challenge.strings_arrays;
 
 import com.sun.org.apache.xerces.internal.impl.dv.xs.YearMonthDV;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import java.time.*;
-import java.util.GregorianCalendar;
+
 
 /**
  * Created by ryandesmond on 7/10/17.
@@ -47,6 +45,6 @@ public class CreateCalendar {
         System.out.println("adjusted format in year/day/month in standard time = " + dateFormat.format(cal.getTime()));
         dateFormat = new SimpleDateFormat("E MM-dd-yy HH:mm");
         System.out.println("adjusted format in day of week month-day-year military time = " + dateFormat.format(cal.getTime()));
-        
+
     }
 }
