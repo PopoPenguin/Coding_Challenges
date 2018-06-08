@@ -5,12 +5,6 @@ import com.sun.org.apache.xerces.internal.impl.dv.xs.YearMonthDV;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-
-/**
- * Created by ryandesmond on 7/10/17.
- */
-
-
 /*
     Write the code to create, parse modify and format a variety of dates and DateFormats.
  */

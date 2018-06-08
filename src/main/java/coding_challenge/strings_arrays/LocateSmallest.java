@@ -27,5 +27,14 @@ import java.util.Random;
 
 public class LocateSmallest {
 
+    public static void main(String[] args) {
+        int [] small = new int [6];
+        Random x = new Random(100);
+        for (int i = 0; i<100;i++){
+            
+        }
+
+    }
+
 
 }
